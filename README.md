@@ -1,91 +1,220 @@
-# SkillMap 🧠
+# 🧠 SkillMap
 
-**AI-powered interactive learning path visualizer** — type any skill, get a beautiful knowledge graph.
+### AI-Powered Interactive Learning Path Visualizer
 
-![SkillMap Demo](https://img.shields.io/badge/demo-live-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Vanilla JS](https://img.shields.io/badge/stack-HTML%20%2B%20D3.js-orange)
+Transform any skill into a dynamic, interactive knowledge graph powered by AI.
 
-## What it does
-
-SkillMap uses Claude AI to generate a structured knowledge graph for any skill you enter. It maps:
-
-- **Root node** — the core skill you want to learn
-- **Sub-domains** — major areas or prerequisites
-- **Concepts/techniques** — specific tools, algorithms, and ideas
-
-Each node is interactive: click it to see a description and curated learning resources.
-
-## Features
-
-- 🤖 Powered by Claude claude-sonnet-4-20250514 (Anthropic API)
-- 🔗 Force-directed graph built with D3.js
-- 🖱️ Drag, zoom, and pan the graph
-- 📖 Click any node for description + resources
-- 💾 Export the graph as JSON
-- 🌑 Dark theme, zero dependencies beyond D3 + Google Fonts
-- 🗂️ Single HTML file — no build step, no framework
-
-## Quick Start
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/skillmap.git
-   cd skillmap
-   ```
-
-2. Open `index.html` in your browser (or serve it locally):
-   ```bash
-   npx serve .
-   # or
-   python3 -m http.server 8080
-   ```
-
-3. Enter your [Anthropic API key](https://console.anthropic.com/) in the sidebar
-
-4. Type any skill and hit **Generate Map →**
-
-## Example Skills to Try
-
-- `machine learning`
-- `system design`
-- `rust programming`
-- `kubernetes`
-- `computer vision`
-- `data engineering`
-
-## Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| [D3.js v7](https://d3js.org/) | Force-directed graph layout |
-| [Claude API](https://anthropic.com) | Skill graph generation (structured JSON) |
-| [DM Sans / DM Serif Display](https://fonts.google.com/) | Typography |
-| Vanilla JS + HTML/CSS | Everything else |
-
-## How it Works
-
-1. You enter a skill + your API key
-2. A carefully crafted prompt asks Claude to return a structured JSON graph
-3. D3.js renders the graph with physics-based layout
-4. Clicking nodes fetches descriptions and resource links from the AI response
-
-## API Key
-
-Your API key is stored **only in memory** (never in localStorage, never sent anywhere except `api.anthropic.com`). It's cleared when you refresh the page.
-
-You can get an API key at [console.anthropic.com](https://console.anthropic.com/).
-
-## Customization
-
-The graph prompt is in the `fetchSkillGraph()` function in `index.html`. You can modify it to:
-- Change the depth or breadth of the graph
-- Add difficulty ratings to nodes
-- Include estimated learning hours
-- Request different resource types
-
-## License
-
-MIT — use it however you like.
+SkillMap helps learners, students, developers, and professionals understand complex subjects by automatically generating structured learning roadmaps and visualizing relationships between concepts, prerequisites, tools, and advanced topics.
 
 ---
 
-Built with Claude AI + D3.js · [Open an issue](../../issues) if you find bugs
+## ✨ Overview
+
+Learning a new skill often feels overwhelming because information is scattered across countless tutorials, courses, and articles.
+
+SkillMap solves this problem by using AI to generate a personalized knowledge graph for any skill and presenting it as an interactive visual learning map.
+
+Simply enter a topic such as **Machine Learning**, **System Design**, **Data Engineering**, or **Cybersecurity**, and SkillMap will instantly create a structured roadmap showing:
+
+* Core concepts
+* Learning paths
+* Prerequisites
+* Related technologies
+* Recommended resources
+
+---
+
+## 🚀 Features
+
+### 🤖 AI-Powered Skill Mapping
+
+Generate intelligent learning roadmaps using Anthropic Claude AI.
+
+### 🌐 Interactive Knowledge Graph
+
+Visualize complex topics through a dynamic D3.js force-directed graph.
+
+### 🖱️ Full Graph Interaction
+
+* Drag nodes
+* Zoom in/out
+* Pan across the canvas
+* Explore relationships between concepts
+
+### 📚 Learning Resources
+
+Click any node to view:
+
+* Topic descriptions
+* Learning recommendations
+* Helpful resources
+* Suggested next steps
+
+### 💾 Export & Share
+
+Save generated learning maps as structured JSON files.
+
+### 🌙 Modern Dark Interface
+
+Clean, responsive design optimized for long learning sessions.
+
+### ⚡ Lightweight Architecture
+
+No frameworks.
+No build tools.
+No unnecessary dependencies.
+
+Everything runs from a single HTML file.
+
+---
+
+## 🎯 Example Use Cases
+
+SkillMap can generate learning roadmaps for:
+
+* Machine Learning
+* Data Science
+* Python Programming
+* Data Engineering
+* Kubernetes
+* Cloud Computing
+* Cybersecurity
+* System Design
+* DevOps
+* UI/UX Design
+* Product Management
+* Blockchain Development
+
+---
+
+## 📸 How It Works
+
+### Step 1 — Enter a Skill
+
+Type any skill you want to learn.
+
+Example:
+
+```text
+Machine Learning
+```
+
+### Step 2 — AI Generates Structure
+
+Claude AI analyzes the topic and creates a structured knowledge graph containing:
+
+* Root skill
+* Sub-domains
+* Concepts
+* Techniques
+* Related tools
+
+### Step 3 — Visual Graph Creation
+
+D3.js transforms the AI response into a fully interactive graph.
+
+### Step 4 — Explore & Learn
+
+Click nodes to discover:
+
+* Explanations
+* Learning resources
+* Recommended progression paths
+
+---
+
+## 🛠 Technology Stack
+
+| Technology         | Purpose                         |
+| ------------------ | ------------------------------- |
+| D3.js v7           | Interactive graph visualization |
+| Claude API         | AI-powered graph generation     |
+| Vanilla JavaScript | Application logic               |
+| HTML5 & CSS3       | Interface and styling           |
+| Google Fonts       | Typography                      |
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/skillmap.git
+cd skillmap
+```
+
+Serve locally:
+
+```bash
+python3 -m http.server 8080
+```
+
+or
+
+```bash
+npx serve .
+```
+
+Open:
+
+```text
+http://localhost:8080
+```
+
+---
+
+## 🔑 API Key Security
+
+Your Anthropic API key is:
+
+✅ Stored only in memory
+
+✅ Never saved to localStorage
+
+✅ Never persisted to disk
+
+✅ Sent exclusively to Anthropic's API endpoint
+
+The key is automatically cleared when the page is refreshed.
+
+---
+
+## 📈 Future Roadmap
+
+* Learning difficulty estimation
+* Time-to-learn predictions
+* Personalized learning paths
+* Progress tracking
+* PDF roadmap export
+* Multi-language support
+* Collaborative learning maps
+* Career-focused roadmaps
+
+---
+
+## 💡 Why SkillMap?
+
+Most learning platforms provide content.
+
+SkillMap provides clarity.
+
+Instead of asking:
+
+> "What course should I take next?"
+
+SkillMap helps answer:
+
+> "What should I learn next, and why?"
+
+---
+
+## 📄 License
+
+Licensed under the MIT License.
+
+Feel free to use, modify, distribute, and build upon this project.
+
+---
+
+### Built with ❤️ using Claude AI, D3.js, and Vanilla JavaScript
