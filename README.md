@@ -1,153 +1,155 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:06B6D4&height=240&section=header&text=SkillMap&fontSize=55&fontColor=ffffff&animation=fadeIn"/>
+
 # 🧠 SkillMap
 
 ### AI-Powered Interactive Learning Path Visualizer
 
-Transform any skill into a dynamic, interactive knowledge graph powered by AI.
+<p align="center">
 
-SkillMap helps learners, students, developers, and professionals understand complex subjects by automatically generating structured learning roadmaps and visualizing relationships between concepts, prerequisites, tools, and advanced topics.
+<img src="https://img.shields.io/badge/Claude_AI-Powered-purple?style=for-the-badge">
+<img src="https://img.shields.io/badge/D3.js-Visualization-orange?style=for-the-badge&logo=d3.js">
+<img src="https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge&logo=javascript">
+<img src="https://img.shields.io/badge/HTML5-CSS3-red?style=for-the-badge&logo=html5">
+<img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
 
----
+</p>
 
-## ✨ Overview
+### 🚀 Learn Smarter. Visualize Knowledge. Build Your Future.
 
-Learning a new skill often feels overwhelming because information is scattered across countless tutorials, courses, and articles.
+*Generate intelligent learning roadmaps with AI and explore them through an interactive knowledge graph.*
 
-SkillMap solves this problem by using AI to generate a personalized knowledge graph for any skill and presenting it as an interactive visual learning map.
-
-Simply enter a topic such as **Machine Learning**, **System Design**, **Data Engineering**, or **Cybersecurity**, and SkillMap will instantly create a structured roadmap showing:
-
-* Core concepts
-* Learning paths
-* Prerequisites
-* Related technologies
-* Recommended resources
+</div>
 
 ---
 
-## 🚀 Features
+# 🌍 Overview
 
-### 🤖 AI-Powered Skill Mapping
+Learning complex technologies shouldn't feel overwhelming.
 
-Generate intelligent learning roadmaps using Anthropic Claude AI.
+**SkillMap** transforms any topic into an interactive visual roadmap using AI, making it easier to understand concepts, dependencies, and the best learning order.
 
-### 🌐 Interactive Knowledge Graph
-
-Visualize complex topics through a dynamic D3.js force-directed graph.
-
-### 🖱️ Full Graph Interaction
-
-* Drag nodes
-* Zoom in/out
-* Pan across the canvas
-* Explore relationships between concepts
-
-### 📚 Learning Resources
-
-Click any node to view:
-
-* Topic descriptions
-* Learning recommendations
-* Helpful resources
-* Suggested next steps
-
-### 💾 Export & Share
-
-Save generated learning maps as structured JSON files.
-
-### 🌙 Modern Dark Interface
-
-Clean, responsive design optimized for long learning sessions.
-
-### ⚡ Lightweight Architecture
-
-No frameworks.
-No build tools.
-No unnecessary dependencies.
-
-Everything runs from a single HTML file.
+Whether you're learning **Machine Learning**, **System Design**, **Cybersecurity**, or **Cloud Computing**, SkillMap helps you see the bigger picture.
 
 ---
 
-## 🎯 Example Use Cases
+# ✨ Features
 
-SkillMap can generate learning roadmaps for:
-
-* Machine Learning
-* Data Science
-* Python Programming
-* Data Engineering
-* Kubernetes
-* Cloud Computing
-* Cybersecurity
-* System Design
-* DevOps
-* UI/UX Design
-* Product Management
-* Blockchain Development
+| Feature | Description |
+|----------|-------------|
+| 🤖 AI Roadmap Generation | Create structured learning paths with Claude AI |
+| 🕸 Interactive Knowledge Graph | Explore concepts using D3.js force-directed graphs |
+| 🔍 Smart Topic Relationships | Visualize dependencies between concepts |
+| 📚 Learning Resources | Access descriptions and suggested learning materials |
+| 💾 JSON Export | Save generated learning maps |
+| 🌙 Modern Dark UI | Clean and responsive interface |
+| ⚡ Zero Build Tools | Runs directly in the browser |
 
 ---
 
-## 📸 How It Works
+# 📸 Preview
 
-### Step 1 — Enter a Skill
+<p align="center">
 
-Type any skill you want to learn.
+📷 **Dashboard Screenshot**
 
-Example:
+*Add application screenshot here*
+
+</p>
+
+---
+
+# 🏗 System Workflow
 
 ```text
-Machine Learning
+          User Input
+               │
+               ▼
+      Claude AI Processing
+               │
+               ▼
+     Structured Learning Map
+               │
+               ▼
+      D3.js Graph Engine
+               │
+               ▼
+ Interactive Knowledge Graph
+               │
+               ▼
+      Explore • Learn • Grow
 ```
 
-### Step 2 — AI Generates Structure
+---
 
-Claude AI analyzes the topic and creates a structured knowledge graph containing:
+# 🚀 Example Learning Topics
 
-* Root skill
-* Sub-domains
-* Concepts
-* Techniques
-* Related tools
-
-### Step 3 — Visual Graph Creation
-
-D3.js transforms the AI response into a fully interactive graph.
-
-### Step 4 — Explore & Learn
-
-Click nodes to discover:
-
-* Explanations
-* Learning resources
-* Recommended progression paths
+| Technology | Status |
+|------------|:------:|
+| 🤖 Machine Learning | ✅ |
+| 🐍 Python | ✅ |
+| ☁ Cloud Computing | ✅ |
+| 🔐 Cybersecurity | ✅ |
+| ⚙ DevOps | ✅ |
+| 🗄 Data Engineering | ✅ |
+| 📊 Data Science | ✅ |
+| 🎨 UI/UX Design | ✅ |
+| 🧩 System Design | ✅ |
+| 🌐 Blockchain | ✅ |
 
 ---
 
-## 🛠 Technology Stack
+# ⚙ Tech Stack
 
-| Technology         | Purpose                         |
-| ------------------ | ------------------------------- |
-| D3.js v7           | Interactive graph visualization |
-| Claude API         | AI-powered graph generation     |
-| Vanilla JavaScript | Application logic               |
-| HTML5 & CSS3       | Interface and styling           |
-| Google Fonts       | Typography                      |
+| Technology | Purpose |
+|------------|----------|
+| 🧠 Claude AI | Roadmap Generation |
+| 📊 D3.js | Interactive Graph Visualization |
+| 💛 JavaScript | Application Logic |
+| 🌐 HTML5 | User Interface |
+| 🎨 CSS3 | Styling |
+| 🔤 Google Fonts | Typography |
 
 ---
 
-## ⚙️ Installation
+# 📁 Project Structure
 
-Clone the repository:
+```text
+📦 SkillMap
+
+├── 📄 index.html
+├── 📄 style.css
+├── 📄 script.js
+├── 📂 assets
+│   ├── images
+│   └── icons
+├── 📂 data
+│   └── sample-roadmaps
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/skillmap.git
+```
+
+Navigate to the project
+
+```bash
 cd skillmap
 ```
 
-Serve locally:
+Run a local server
 
 ```bash
-python3 -m http.server 8080
+python -m http.server 8080
 ```
 
 or
@@ -156,65 +158,81 @@ or
 npx serve .
 ```
 
-Open:
+Visit
 
-```text
+```
 http://localhost:8080
 ```
 
 ---
 
-## 🔑 API Key Security
+# 🔐 API Security
 
-Your Anthropic API key is:
+✅ API key stored only in memory
 
-✅ Stored only in memory
+✅ Never written to local storage
 
-✅ Never saved to localStorage
+✅ Never saved to disk
 
-✅ Never persisted to disk
-
-✅ Sent exclusively to Anthropic's API endpoint
-
-The key is automatically cleared when the page is refreshed.
+✅ Cleared automatically after refresh
 
 ---
 
-## 📈 Future Roadmap
+# 📈 Future Roadmap
 
-* Learning difficulty estimation
-* Time-to-learn predictions
-* Personalized learning paths
-* Progress tracking
-* PDF roadmap export
-* Multi-language support
-* Collaborative learning maps
-* Career-focused roadmaps
-
----
-
-## 💡 Why SkillMap?
-
-Most learning platforms provide content.
-
-SkillMap provides clarity.
-
-Instead of asking:
-
-> "What course should I take next?"
-
-SkillMap helps answer:
-
-> "What should I learn next, and why?"
+- 🧠 Personalized AI Learning Paths
+- ⏱ Time-to-Master Estimation
+- 📅 Progress Tracking
+- 📄 PDF Roadmap Export
+- 🌍 Multi-language Support
+- 👥 Collaborative Learning
+- 💼 Career-focused Skill Trees
+- 📱 Mobile Version
 
 ---
 
-## 📄 License
+# 🎯 Skills Demonstrated
 
-Licensed under the MIT License.
+<div align="center">
 
-Feel free to use, modify, distribute, and build upon this project.
+| AI | Frontend | Visualization |
+|----|----------|---------------|
+| Claude API | HTML5 | D3.js |
+| Prompt Engineering | CSS3 | Graph Algorithms |
+| JavaScript | Responsive Design | Interactive UI |
+
+</div>
 
 ---
 
-### Built with ❤️ using Claude AI, D3.js, and Vanilla JavaScript
+# 💡 Why SkillMap?
+
+Unlike traditional learning platforms that simply provide courses, **SkillMap** helps learners understand **what to learn, in what order, and how each concept connects**.
+
+It transforms scattered information into a clear, visual learning journey.
+
+---
+
+# 📄 License
+
+Released under the **MIT License**.
+
+---
+
+<div align="center">
+
+# 👩‍💻 Tasnem Islam Prome
+
+### AI Developer • Frontend Engineer • Data & Visualization Enthusiast
+
+<p>
+<a href="https://github.com/tasnem-tech">
+<img src="https://img.shields.io/badge/GitHub-@tasnem--tech-black?style=for-the-badge&logo=github">
+</a>
+</p>
+
+⭐ **If this project helped you, consider giving it a Star!**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=120&section=footer"/>
+
+</div>
